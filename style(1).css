@@ -1,0 +1,201 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'satoshi', sans-serif;
+    text-align: center;
+
+}
+
+body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.intro {
+    height: 1168px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/1.png);
+    background-color: #0F0F0F;
+}
+
+.navbar {
+    height: 100vh;
+    width: 100%;
+    background-color: none;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    font-family: 'satoshi', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'satoshi', sans-serif;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 20px;
+    font-family: 'satoshi', sans-serif;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'satoshi', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button {
+    border: none;
+    border-radius: 30px;
+    background: #313B56;
+    color: white;
+    color: white;
+    text-decoration: none;
+    font-family: 'satoshi', sans-serif;
+    font-weight: bold;
+    padding: 12px 30px;
+    list-style-type: none;
+}
+
+.letters {
+    background-color: #0F0F0F;
+}
+
+.letterheader {
+    font-weight: 900;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+.lettersg {
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    font-size: 1.2em;
+    color: white;
+    margin-left: 250px;
+}
+
+.letterdg {
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: white;
+    margin-left: 250px;
+    padding-bottom: 120px;
+
+}
+
+.rectangle {
+    position: absolute;
+    width: 1303px;
+    height: 506px;
+    left: 90px;
+    top: 1088px;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 1303px;
+    height: 506px;
+    left: 90px;
+    top: 1682px;
+    margin-bottom: 100px;
+
+}
+
+.bottomframe {
+    background-color: #000;
+}
+
+.bottomframelogo {
+    margin: 50px;
+}
+
+.navbarbottom {
+    margin-left: 13.3%;
+}
+
+.navbarbottom nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 60px;
+    font-family: 'satoshi', sans-serif;
+}
+
+.dots {
+    position: absolute;
+    width: 613px;
+    height: 5px;
+    left: 430px;
+    top: 2515px;
+}
+
+.sm {
+    margin: 20px;
+}
+
+.madeby {
+    color: white;
+
+}
+
+.mainheader {
+    color: white;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+
+    position: absolute;
+    width: 550px;
+    height: 147px;
+    left: 445px;
+    top: 364px;
+}
+
+.countdown {
+    display: flex;
+    color: white;
+    font-family: 'satoshi', sans-serif;
+
+    position: absolute;
+    width: 550px;
+    height: 147px;
+    left: 530px;
+    top: 500px;
+}
+
+.countdown div {
+    flex-basis: 100px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.countdown div p {
+    font-size: 60px;
+    margin-bottom: -14px;
+    font-weight: bold;
+}
